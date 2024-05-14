@@ -3,7 +3,7 @@ import React from 'react'
 const User = (props) => {
 
    const handleDelete=(id)=>{
-    console.log(id)
+    props.deleteUser(id)
     }
 
    const {id,name}=props.user
